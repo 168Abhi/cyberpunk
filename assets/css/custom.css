@@ -1,0 +1,38 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+.carousel-item {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.574);
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    position: static;
+    background-color: transparent;
+  }
+}
+ .carousel-item{
+  object-fit: cover;
+  
+  
+
+}
+.carousel-item img {
+  align-items: center;
+  width: 50%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 12px 8px;
+}
+@media (max-width: 576px) {
+  .carousel-item img {
+    width: 100%;
+    height: 300px;
+  }
+}
